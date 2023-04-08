@@ -11,6 +11,7 @@
 //initilise SDL
 int init(int w, int h, int argc, char *args[]);
 
+//This is a only test!!!
 typedef struct ball_s {
 
 	int x, y; /* position on the screen */
