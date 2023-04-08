@@ -764,6 +764,6 @@ int init(int width, int height, int argc, char *args[]) {
 	Uint32 colorkey = SDL_MapRGB(title->format, 255, 0, 255);
 	SDL_SetColorKey(title, SDL_TRUE, colorkey);
 	SDL_SetColorKey(numbermap, SDL_TRUE, colorkey);
-	
+	//Return
 	return 0;
 }
